@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Engenharia de Computação",
+      "skills": ["C","Linux", "Gestão de Projetos", "Scrum", "Git", "GitHub"],
+      "description": "Estudante de Engenharia de computação, atualmente no primeiro semestre, com conhecimento sendo constantemente aprimorado através de aulas práticas e teóricas,  que visam a formação sólida de um Engenheiro de Computação.",
+      "subtitle": " Universidade Federal do Pampa | Bagé-RS | ago. 2024 - atualmente." 
+    },
+    {
+        "title": "Análise e Desenvolvimento de Sistemas",
+        "skills": ["Java", "Modelagem de Dados", "Desenvolvimento de Software"],
+        "description": "Concluídos dois semestres com foco em desenvolvimento backend e modelagem de dados.",
+        "subtitle": "IFSUL | Santana do Livramento-RS | jul. 2023 - jun. 2024"
+      },
+      
+    {
+        "title": "Cursos de Tecnologia",
+        "skills": ["Java", "Angular", "Spring", "PostgreSQL", "Typescript", "C#", "MongoDB", "AWS", "Linux", "Javascript", "HTML", "CSS"],
+        "description": "Alura é uma plataforma de ensino de tecnologia que oferece cursos e formações em diversas áreas da tecnologia. Com uma abordagem prática e focada no mercado de trabalho, ajuda a desenvolver habilidades essenciais em programação, desenvolvimento web, banco de dados, cloud computing, e outros.",
+        "subtitle": "Alura | Remoto | jul. 2023 - atualmente"
+    },
+    {
+        "title": "Programa DIO Campus Expert",
+        "skills": ["Liderança", "Soft Skills"],
+        "description": "Programa de embaixadores univeritários DIO Campus Expert, com foco no desenvolvimento de soft skills e liderança",
+        "subtitle": "DIO | Remoto | ago. 2024 - out. 2024"
+    }
+    
+  ]

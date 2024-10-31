@@ -1,0 +1,17 @@
+
+<div class="project-content">
+    <div class="card" *ngFor="let project of projects">
+        <div class="project-content-title">
+            {{ project.title }}
+          </div>
+          <div>
+            <span class="project-content-tag" *ngFor="let tag of project.tags">{{ tag }}</span>
+          </div>
+          <div class="project-content-info">
+            {{ project.info }}
+          </div>
+          <div class="project-content-repoLink">
+              {{ project.repoLink }}
+          </div>
+    </div>
+</div>

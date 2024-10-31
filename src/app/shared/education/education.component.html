@@ -1,0 +1,16 @@
+<div class="education-content">
+    <div class="card" *ngFor="let education of educations">
+        <div class="education-content-title">
+            {{ education.title}}
+        </div>
+        <div class="education-content-subtitle">
+            {{ education.subtitle }}
+        </div>
+        <div class="education-content-info">
+            {{ education.description }}
+        </div>
+        <div>
+            <span class="education-content-skill" *ngFor="let skill of education.skills">{{ skill }}</span>
+        </div>
+    </div>
+</div>

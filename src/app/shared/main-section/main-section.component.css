@@ -1,0 +1,109 @@
+.container-main-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-about-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.container-projects-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: left;
+    justify-content: left;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.container-education-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: left;
+    justify-content: left;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.main-content span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: #151717;
+}
+
+.main-content h1 {
+    background: linear-gradient(90deg, rgba(82,34,208,1) 35%, rgba(255,97,150,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+
+@media (min-width: 1080px) {
+    .container-main-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-projects-content {
+        margin-top: 60px;
+    }
+
+    .main-content {
+        align-items: flex-start;
+        max-width: 60%;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+    .about-content {
+        margin-top: 60px;
+    }
+
+    .about-content-text {
+        border-left: 4px solid #5222D0;
+        padding-left: 16px;
+        
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .container-projects-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-education-content {
+        display: flex;
+        flex-direction: column;
+    }
+}

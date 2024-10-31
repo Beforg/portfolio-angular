@@ -1,0 +1,52 @@
+@media (min-width: 1080px) {
+    .project-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .project-content-title {
+        font-size: 18px;
+        margin: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    .project-content-tag {
+        font-size: 14px;
+        line-height: 10px;
+        padding: 3px;
+        border-radius: 1px;
+        display: inline-block;
+        background-color: #8455FF;
+        color: #F0F0F0;
+        margin: 0px 8px 0 5px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    .project-content-info {
+        font-size: 18px;
+        margin: 5px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .project-content-repoLink {
+        margin: 5px;
+        font-size: 14px;
+        margin: 5px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .card {
+        width: 400px;
+        height: 200px;
+        box-shadow: 0 4px 8px rgb(0, 0, 0,0.2);
+        border-radius: 4px;
+        background-color: #F0F0F0;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        margin: 1%;
+    }
+}

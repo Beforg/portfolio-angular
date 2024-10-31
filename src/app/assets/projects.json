@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Lumostudy",
+      "tags": ["Java", "Angular", "Spring", "PostgreSQL", "Typescript"],
+      "info": "Aplicativo para o gerenciamento de estudos",
+      "repoLink": "www.teste.com" 
+    },
+    {
+      "title": "AtendimentosApp",
+      "tags": ["JavaFX", "PostgreSQL", "CSS"],
+      "info": "Sistema para o atendimento e fechamento de caixa de uma empresa de embalagens",
+      "repoLink": "www.teste.com" 
+    },
+    {
+      "title": "Controle de Estoque",
+      "tags": ["C#","SQL Server 2019"],
+      "info": "Sistema para controle do almoxarifado de uma empresa de Construções",
+      "repoLink": "www.teste.com" 
+    },
+    {
+      "title": "Task+",
+      "tags": ["Java", "Spring", "HTML", "CSS", "PostgreSQL"],
+      "info": "Projeto de gerenciamento de tarefas",
+      "repoLink": "www.teste.com" 
+    },
+    {
+      "title": "LifeSync",
+      "tags": ["JavaFX", "Spring", "CSS"],
+      "info": "Aplicativo Desktop de organização pessoal feita em java",
+      "repoLink": "www.teste.com" 
+    }
+    
+  ]
