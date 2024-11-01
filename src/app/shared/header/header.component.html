@@ -1,9 +1,14 @@
 <header>
-    <a>Home</a>
+    <div class="images">
+        <a *ngFor="let img of images">
+            <img [src]="img" alt="imagem" class="imagem" />
+        </a>
+    </div>
     <div class="menu">
-        <a>Projetos</a>
         <btn-primary
             text="Entre em contato">
         </btn-primary>
     </div>
 </header>
+
+<button id="backToTopBtn" class="back-to-top" (click)="scrollToTop()">Voltar ao Início</button>

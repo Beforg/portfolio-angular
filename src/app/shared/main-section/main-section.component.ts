@@ -3,11 +3,20 @@ import { MainAnimationComponent } from '../main-animation/main-animation.compone
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { ProjectComponent } from "../project/project.component";
 import { EducationComponent } from "../education/education.component";
+import { SocialComponent } from '../social/social.component';
+import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'main-section',
   standalone: true,
-  imports: [MainAnimationComponent, BtnPrimaryComponent, ProjectComponent, EducationComponent],
+  imports: [
+    MainAnimationComponent,
+    BtnPrimaryComponent,
+    ProjectComponent,
+    EducationComponent,
+    SocialComponent,
+    FooterComponent
+],
   templateUrl: './main-section.component.html',
   styleUrl: './main-section.component.css'
 })

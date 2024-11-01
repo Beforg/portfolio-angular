@@ -8,12 +8,16 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './project.component.html',
-  styleUrls: ['./project.component.css'] // Corrigido de styleUrl para styleUrls
+  styleUrls: ['./project.component.css'] 
 })
 export class ProjectComponent implements OnInit {
   projects: Project[] = [];
 
   ngOnInit(): void {
-    this.projects = projectsData as Project[]; // Atribuindo os dados do JSON à variável projects
+    this.projects = projectsData as Project[]; 
+  }
+
+  goToRepository(url: string) {
+    window.open(url, '_blank'); 
   }
 }

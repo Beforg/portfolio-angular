@@ -1,6 +1,6 @@
 
 <div class="project-content">
-    <div class="card" *ngFor="let project of projects">
+    <div class="card" *ngFor="let project of projects" (click)="goToRepository(project.repoLink)">
         <div class="project-content-title">
             {{ project.title }}
           </div>
@@ -11,7 +11,7 @@
             {{ project.info }}
           </div>
           <div class="project-content-repoLink">
-              {{ project.repoLink }}
-          </div>
+            {{ project.repoLink }}
+        </div>
     </div>
 </div>

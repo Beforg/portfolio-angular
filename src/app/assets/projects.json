@@ -9,7 +9,7 @@
       "title": "AtendimentosApp",
       "tags": ["JavaFX", "PostgreSQL", "CSS"],
       "info": "Sistema para o atendimento e fechamento de caixa de uma empresa de embalagens",
-      "repoLink": "www.teste.com" 
+      "repoLink": "https://github.com/Beforg/AtendimentosAPP" 
     },
     {
       "title": "Controle de Estoque",

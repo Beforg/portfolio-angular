@@ -4,16 +4,40 @@ header {
     justify-content: space-between;
     padding-top: 24px;
 
-    div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 32px;  
-    }
-
     a {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         font-size: 16px;
     }
+    
+    .imagem {
+        width: 60px;
+    }
+}
+
+.images {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+.back-to-top {
+    display: none; /* Inicialmente escondido */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100; /* Certifique-se de que o botão fique acima de outros elementos */
+    background-color: #5222D0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.back-to-top:hover {
+    background-color: #0056b3;
 }
