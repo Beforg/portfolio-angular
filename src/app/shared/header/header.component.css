@@ -1,8 +1,8 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 24px;
+    flex-direction: column;
+    padding-top: 10px;
 
     a {
         font-family: 'Montserrat', sans-serif;
@@ -11,36 +11,15 @@ header {
     }
     
     .imagem {
-        width: 60px;
+        width: 40px;
     }
 }
 
 .images {
     display: flex;
-    gap: 5px;
+    gap: 2px;
 }
 
-
-
-.back-to-top {
-    display: none; 
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 100;
-    background-color: #5222D0;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-.back-to-top:hover {
-    background-color: #0056b3;
-}
 
 p {
     font-family: 'Montserrat', sans-serif;
@@ -52,4 +31,68 @@ p {
 p:hover {
     transition: color 0.5s ease-out;
     color: #5222D0;
+}
+
+.back-to-top {
+    display: none;
+}
+.container-button-mode {
+    display: none;
+}
+@media (min-width: 1080px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 24px;
+    
+        a {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        
+        .imagem {
+            width: 60px;
+        }
+    }
+    
+    .images {
+        display: flex;
+        gap: 5px;
+    }
+    
+    
+    
+    .back-to-top {
+        display: none; 
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 100;
+        background-color: #5222D0;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+    }
+    
+    .back-to-top:hover {
+        background-color: #0056b3;
+    }
+    
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        transition: color 0.5s ease-out;
+    }
+    
+    p:hover {
+        transition: color 0.5s ease-out;
+        color: #5222D0;
+    }
 }

@@ -1,3 +1,58 @@
+.education-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-content-title {
+    font-size: 19px;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.education-content-skill {
+    font-size: 14px;
+    line-height: 10px;
+    padding: 4px;
+    border-radius: 1px;
+    display: inline-block;
+    background-color: #8455FF;
+    color: #F0F0F0;
+    margin: 10px 4px 10px 3px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.education-content-info {
+    font-size: 21px;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education-content-subtitle {
+    margin: 5px;
+    font-size: 15px;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgb(0, 0, 0,0.2);
+    border-radius: 4px;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 1%;
+    margin: 30px 0;
+}
+
+.card:hover {
+    transition: box-shadow 0.5s;
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.4); 
+}
+
 @media (min-width: 1080px) {
     .education-content {
         display: flex;
