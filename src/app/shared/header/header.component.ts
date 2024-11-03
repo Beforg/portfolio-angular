@@ -12,13 +12,13 @@ import { CommonModule } from '@angular/common';
 export class HeaderComponent {
 
   images: string[] = [
-    '/java.png',
-    '/spring.png',
-    '/pg.png',
-    '/csharp.png',
-    '/ts.png',
-    '/js.png',
-    '/angular.png',
+    'portfolio-angular/java.png',
+    'portfolio-angular/spring.png',
+    'portfolio-angular/pg.png',
+    'portfolio-angular/csharp.png',
+    'portfolio-angular/ts.png',
+    'portfolio-angular/js.png',
+    'portfolio-angular/angular.png',
   
   ]
 

@@ -11,7 +11,7 @@ import { Education } from '../../models/education.model';
 })
 export class EducationComponent implements OnInit {
   educations: Education[] = [];
-  pathImg: string = 'education.png';
+  pathImg: string = 'portfolio-angular/education.png';
   
   constructor() { }
 

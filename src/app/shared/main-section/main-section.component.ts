@@ -19,6 +19,6 @@ import { FooterComponent } from "../footer/footer.component";
   styleUrl: './main-section.component.css'
 })
 export class MainSectionComponent {
-  myImg: string = '/me.png';
+  myImg: string = 'portfolio-angular/me.png';
   
 }
