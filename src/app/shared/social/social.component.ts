@@ -12,7 +12,7 @@ export class SocialComponent {
 
 
   imagens = [
-    { src: 'portfolio-angular/github.png', link: 'https://github.com/Beforg' },
-    { src: 'portfolio-angular/linkedin.png', link: 'https://www.linkedin.com/in/beforg/' }
+    { src: '/portfolio-angular/github.png', link: 'https://github.com/Beforg' },
+    { src: '/portfolio-angular/linkedin.png', link: 'https://www.linkedin.com/in/beforg/' }
   ];
 }
