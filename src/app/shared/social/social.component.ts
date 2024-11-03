@@ -12,8 +12,7 @@ export class SocialComponent {
 
 
   imagens = [
-    { src: '/github.png', link: 'https://github.com' },
-    { src: '/linkedin.png', link: 'https://linkedin.com' },
-    { src: '/gmail.png', link: 'https://twitter.com' }
+    { src: '/github.png', link: 'https://github.com/Beforg' },
+    { src: '/linkedin.png', link: 'https://www.linkedin.com/in/beforg/' }
   ];
 }

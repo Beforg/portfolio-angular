@@ -27,13 +27,13 @@
 
     .project-content-info {
         font-size: 18px;
-        margin: 5px;
+        margin: 20px 5px 5px 5px;
         font-family: 'Montserrat', sans-serif;
     }
 
     .card {
         width: 400px;
-        height: 200px;
+        height: 190px;
         box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
         border-radius: 4px;
         background-color: #F0F0F0;

@@ -1,28 +1,30 @@
 [
-    {
-      "title": "Engenharia de Computação",
-      "skills": ["C","Linux", "Gestão de Projetos", "Scrum", "Git", "GitHub"],
-      "description": "Estudante de Engenharia de computação, atualmente no primeiro semestre, com conhecimento sendo constantemente aprimorado através de aulas práticas e teóricas,  que visam a formação sólida de um Engenheiro de Computação.",
-      "subtitle": " Universidade Federal do Pampa | Bagé-RS | ago. 2024 - atualmente." 
-    },
-    {
-        "title": "Análise e Desenvolvimento de Sistemas",
-        "skills": ["Java", "Modelagem de Dados", "Desenvolvimento de Software"],
-        "description": "Concluídos dois semestres com foco em desenvolvimento backend e modelagem de dados.",
-        "subtitle": "IFSUL | Santana do Livramento-RS | jul. 2023 - jun. 2024"
-      },
-      
-    {
-        "title": "Cursos de Tecnologia",
-        "skills": ["Java", "Angular", "Spring", "PostgreSQL", "Typescript", "C#", "MongoDB", "AWS", "Linux", "Javascript", "HTML", "CSS"],
-        "description": "Alura é uma plataforma de ensino de tecnologia que oferece cursos e formações em diversas áreas da tecnologia. Com uma abordagem prática e focada no mercado de trabalho, ajuda a desenvolver habilidades essenciais em programação, desenvolvimento web, banco de dados, cloud computing, e outros.",
-        "subtitle": "Alura | Remoto | jul. 2023 - atualmente"
-    },
-    {
-        "title": "Programa DIO Campus Expert",
-        "skills": ["Liderança", "Soft Skills"],
-        "description": "Programa de embaixadores univeritários DIO Campus Expert, com foco no desenvolvimento de soft skills e liderança",
-        "subtitle": "DIO | Remoto | ago. 2024 - out. 2024"
-    }
-    
-  ]
+  {
+    "title": "Engenharia de Computação",
+    "skills": ["C", "Linux", "Gestão de Projetos", "Scrum", "Git", "GitHub", "Arquitetura de Computadores"],
+    "description": "Estudante de Engenharia de Computação no primeiro semestre, onde adquiro uma base sólida em computação e programação de baixo nível. As aulas práticas e teóricas me preparam para desenvolver soluções de hardware e software, ao mesmo tempo em que aprimoro habilidades de resolução de problemas e otimização de desempenho de sistemas.",
+    "subtitle": "Universidade Federal do Pampa | Bagé-RS | ago. 2024 - atualmente.",
+    "url": "https://cursos.unipampa.edu.br/cursos/engenhariadecomputacao/" 
+  },
+  {
+    "title": "Análise e Desenvolvimento de Sistemas",
+    "skills": ["Java", "Modelagem de Dados", "Desenvolvimento de Software"],
+    "description": "Formação em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento backend, modelagem de dados, e design de software. Concluí dois semestres desenvolvendo aplicações que aplicam metodologias ágeis, promovendo a organização e eficiência no ciclo de desenvolvimento de software.",
+    "subtitle": "IFSUL | Santana do Livramento-RS | jul. 2023 - jun. 2024",
+    "url": "https://intranet.ifsul.edu.br/catalogo/curso/260"
+  },
+  {
+    "title": "Cursos de Tecnologia",
+    "skills": ["Java", "Angular", "Spring", "PostgreSQL", "TypeScript", "C#", "MongoDB", "AWS", "Linux", "JavaScript", "HTML", "CSS"],
+    "description": "Em cursos focados no desenvolvimento de habilidades técnicas essenciais e práticas com abordagens voltadas ao mercado, me especializei em Java e Angular para desenvolvimento fullstack. Meu estudo contínuo tem me permitido construir uma base sólida em desenvolvimento back-end, web, bancos de dados relacionais e NoSQL, cloud computing e linguagens modernas, permitindo-me resolver problemas reais com tecnologias de ponta.",
+    "subtitle": "Alura | Remoto | jul. 2023 - atualmente",
+    "url": "https://cursos.alura.com.br/user/bruno-capsqn/fullCertificate/179838ac7b470e0a516ea25db69f166b"
+  },
+  {
+    "title": "Programa DIO Campus Expert",
+    "skills": ["Liderança", "Soft Skills", "Networking"],
+    "description": "Como embaixador universitário da DIO, desenvolvi habilidades de liderança e comunicação para o compartilhamento de conhecimentos em tecnologia. O programa aprimorou minhas habilidades interpessoais, colaboração e resiliência, fundamentais para criar impacto positivo e atuar como mentor em comunidades acadêmicas de tecnologia.",
+    "subtitle": "DIO | Remoto | ago. 2024 - out. 2024",
+    "url": "https://www.linkedin.com/in/beforg/overlay/1727899686055/single-media-viewer/?profileId=ACoAAECYC3YBWaQJtLpLngp196IJbdHS94quTzI"
+  }
+]

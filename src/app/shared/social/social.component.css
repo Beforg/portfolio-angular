@@ -1,5 +1,7 @@
 @media (min-width: 1080px) {
     .container-contato {
-        margin-top: 20px;
+        margin: 70px 0 30px 0;
+        display: flex;
+        justify-content: center;
     }
 }

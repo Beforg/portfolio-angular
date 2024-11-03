@@ -45,4 +45,5 @@ export class HeaderComponent {
     document.body.scrollTop = 0; // para o safari
     document.documentElement.scrollTop = 0; // Para funcionar no Chrome, Firefox, e Opera
   }
+
 }

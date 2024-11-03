@@ -3,7 +3,7 @@
       "title": "Lumostudy",
       "tags": ["Java", "Angular", "Spring", "PostgreSQL", "Typescript"],
       "info": "Aplicativo para o gerenciamento de estudos",
-      "repoLink": "www.teste.com" 
+      "repoLink": "https://github.com/Beforg/Lumostudy" 
     },
     {
       "title": "AtendimentosApp",
@@ -15,19 +15,19 @@
       "title": "Controle de Estoque",
       "tags": ["C#","SQL Server 2019"],
       "info": "Sistema para controle do almoxarifado de uma empresa de Construções",
-      "repoLink": "www.teste.com" 
+      "repoLink": "https://github.com/Beforg/Controle-De-Estoque" 
     },
     {
       "title": "Task+",
       "tags": ["Java", "Spring", "HTML", "CSS", "PostgreSQL"],
       "info": "Projeto de gerenciamento de tarefas",
-      "repoLink": "www.teste.com" 
+      "repoLink": "https://github.com/Beforg/Task-Plus" 
     },
     {
       "title": "LifeSync",
       "tags": ["JavaFX", "Spring", "CSS"],
       "info": "Aplicativo Desktop de organização pessoal feita em java",
-      "repoLink": "www.teste.com" 
+      "repoLink": "https://github.com/Beforg/LifeSync" 
     }
     
   ]

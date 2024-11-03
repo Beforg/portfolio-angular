@@ -1,5 +1,7 @@
 <section class="container-contato">
-  <a *ngFor="let item of imagens" [href]="item.link" target="_blank">
-    <img [src]="item.src" alt="imagem" />
-  </a>
+  <div class="icones">
+    <a *ngFor="let item of imagens" [href]="item.link" target="_blank">
+      <img [src]="item.src" alt="imagem" />
+    </a>
+  </div>
 </section>

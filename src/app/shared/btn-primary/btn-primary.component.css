@@ -1,12 +1,18 @@
 .btn-primary {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 500;
-    padding: 12px 20px;
-
+    padding: 12px 22px;
     color: #DBFFFF;
-    background: rgb(82,34,208);
-    background: linear-gradient(90deg, rgba(82,34,208,1) 35%, rgba(255,97,150,1) 100%);
-
+    background: linear-gradient(90deg, #5222d0 35%, #ff6196 100%);
     border: none;
     border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: color 0.5s ease-out;
 }
+
+.btn-primary:hover {
+    color: #edc0ff;
+}
+
+

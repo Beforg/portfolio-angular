@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import educationData from '../../assets/education.json';
 import { Education } from '../../models/education.model';
 @Component({
@@ -12,6 +12,12 @@ import { Education } from '../../models/education.model';
 export class EducationComponent implements OnInit {
   educations: Education[] = [];
   pathImg: string = 'education.png';
+  
+  constructor() { }
+
+  openLink(linkEducacao: string) {
+    window.open(linkEducacao, '_blank');
+  }
   ngOnInit(): void {
     this.educations = educationData as Education[];
   }

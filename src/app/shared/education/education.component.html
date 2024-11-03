@@ -1,5 +1,5 @@
 <div class="education-content">
-    <div class="card" *ngFor="let education of educations">
+    <div class="card" *ngFor="let education of educations" (click)="openLink(education.url)">
         <div class="education-content-title">
             {{ education.title}}
         </div>

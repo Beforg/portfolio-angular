@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MainAnimationComponent } from '../main-animation/main-animation.component';
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { ProjectComponent } from "../project/project.component";
 import { EducationComponent } from "../education/education.component";
@@ -10,7 +9,6 @@ import { FooterComponent } from "../footer/footer.component";
   selector: 'main-section',
   standalone: true,
   imports: [
-    MainAnimationComponent,
     BtnPrimaryComponent,
     ProjectComponent,
     EducationComponent,
@@ -21,5 +19,6 @@ import { FooterComponent } from "../footer/footer.component";
   styleUrl: './main-section.component.css'
 })
 export class MainSectionComponent {
-
+  myImg: string = '/me.png';
+  
 }
