@@ -2,7 +2,7 @@
   {
     "title": "Engenharia de Computação",
     "skills": ["C", "Linux", "Gestão de Projetos", "Scrum", "Git", "GitHub", "Arquitetura de Computadores"],
-    "description": "Estudante de Engenharia de Computação no primeiro semestre, onde adquiro uma base sólida em computação e programação de baixo nível. As aulas práticas e teóricas me preparam para desenvolver soluções de hardware e software, ao mesmo tempo em que aprimoro habilidades de resolução de problemas e otimização de desempenho de sistemas.",
+    "description": "Estudante do segundo semestre do curso de Engenharia de Computação, onde adquiro uma base sólida em computação e programação de baixo nível. As aulas práticas e teóricas me preparam para desenvolver soluções de hardware e software, ao mesmo tempo em que aprimoro habilidades de resolução de problemas e otimização de desempenho de sistemas.",
     "subtitle": "Universidade Federal do Pampa | Bagé-RS | ago. 2024 - atualmente.",
     "url": "https://cursos.unipampa.edu.br/cursos/engenhariadecomputacao/" 
   },
@@ -15,9 +15,9 @@
   },
   {
     "title": "Cursos de Tecnologia",
-    "skills": ["Java", "Angular", "Spring", "PostgreSQL", "TypeScript", "C#", "MongoDB", "AWS", "Linux", "JavaScript", "HTML", "CSS"],
+    "skills": ["Java", "Angular", "Spring", "PostgreSQL", "TypeScript", "C#", "MongoDB", "AWS", "Linux", "JavaScript", "HTML", "CSS", "UI/UX", "Python", "Gestão Ágil de Projetos"],
     "description": "Em cursos focados no desenvolvimento de habilidades técnicas essenciais e práticas com abordagens voltadas ao mercado, me especializei em Java e Angular para desenvolvimento fullstack. Meu estudo contínuo tem me permitido construir uma base sólida em desenvolvimento back-end, web, bancos de dados relacionais e NoSQL, cloud computing e linguagens modernas, permitindo-me resolver problemas reais com tecnologias de ponta.",
-    "subtitle": "Alura | Remoto | jul. 2023 - atualmente",
+    "subtitle": "Alura | Remoto | jul. 2023 - fev. 2025",
     "url": "https://cursos.alura.com.br/user/bruno-capsqn/fullCertificate/179838ac7b470e0a516ea25db69f166b"
   },
   {

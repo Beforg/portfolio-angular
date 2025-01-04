@@ -16,8 +16,8 @@
     padding: 4px;
     border-radius: 1px;
     display: inline-block;
-    background-color: #8455FF;
-    color: #F0F0F0;
+    background-color: var(--cor-borda);
+    color: var(--texto-branco);
     margin: 10px 4px 10px 3px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -40,7 +40,7 @@
 .card {
     box-shadow: 0 4px 8px rgb(0, 0, 0,0.2);
     border-radius: 4px;
-    background-color: #F0F0F0;
+    background-color: var(--fundo-branco);
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -72,8 +72,8 @@
         padding: 4px;
         border-radius: 1px;
         display: inline-block;
-        background-color: #8455FF;
-        color: #F0F0F0;
+        background-color: var(--cor-borda);
+        color: var(--texto-branco);
         margin: 24px 8px 0 5px;
         font-weight: bold;
         font-family: 'Montserrat', sans-serif;
@@ -97,16 +97,18 @@
         height: 200px;
         box-shadow: 0 4px 8px rgb(0, 0, 0,0.2);
         border-radius: 4px;
-        background-color: #F0F0F0;
+        background-color: var(--fundo-branco);
         display: flex;
         flex-direction: column;
         cursor: pointer;
         padding: 1%;
         margin: 1%;
+        transition: box-shadow 0.5s;
+
     }
 
     .card:hover {
-        transition: box-shadow 0.5s;
+        
         box-shadow: 0 8px 16px rgb(0, 0, 0, 0.4); 
     }
 }

@@ -2,17 +2,15 @@
     font-size: 22px;
     font-weight: 500;
     padding: 12px 22px;
-    color: #DBFFFF;
-    background: linear-gradient(90deg, #5222d0 35%, #ff6196 100%);
+    color: var(--texto-branco);
+    background: var(--linear-gradient);
     border: none;
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-    transition: color 0.5s ease-out;
+    transition: color 0.2s ease-out, transform 0.3s ease-out;
 }
 
 .btn-primary:hover {
-    color: #edc0ff;
+    transform: scale(1.05);
 }
-
-

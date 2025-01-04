@@ -1,2 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --linear-gradient: linear-gradient(90deg, #101648 35%, #3d478d 100%);
+    --cor-borda: #0F1530;
+    --texto-branco: #e0e0e0;
+    --cor-hover: #EB4C38;
+    --fundo-branco: #F0F0F0;
+    --azul-principal: #0D0E2B;
+}
+@keyframes backToTop {
+    0% {
+        opacity: 0;
+        translate: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        translate: translateY(0);
+    }
+}

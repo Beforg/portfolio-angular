@@ -51,7 +51,7 @@
 }
 
 .main-content h1 {
-    background: linear-gradient(90deg, #5222d0 35%, rgba(255,97,150,1) 100%);
+    background: var(--linear-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -69,7 +69,7 @@
 }
 
 .about-content-text {
-    border-left: 4px solid #5222D0;
+    border-left: 4px solid var(--cor-borda);
     padding-left: 16px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -108,7 +108,7 @@
     }
 
     .about-content-text {
-        border-left: 4px solid #5222D0;
+        border-left: 4px solid var(--cor-borda);
         padding-left: 16px;
         
     }

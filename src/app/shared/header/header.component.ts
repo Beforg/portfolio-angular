@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [BtnPrimaryComponent,CommonModule],
+  imports: [CommonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
@@ -41,9 +41,44 @@ export class HeaderComponent {
     }
   }
 
-  scrollToTop() {
-    document.body.scrollTop = 0; // para o safari
-    document.documentElement.scrollTop = 0; // Para funcionar no Chrome, Firefox, e Opera
+  scrollToProjects(): void {
+    const width = window.innerWidth;
+    if (width > 1080) {
+      window.scrollTo({
+        top: 1000,
+        behavior: 'smooth'
+      });
+    } else {
+      window.scrollTo({
+        top:1800,
+        behavior: 'smooth'
+      });
+    }
+
+  }
+
+  scrollToContact(): void {
+    const width = window.innerWidth;
+    if (width > 1080) {
+      window.scrollTo({
+        top: 3000,
+        behavior: 'smooth'
+      });
+    } else {
+      window.scrollTo({
+        top: 6000,
+        behavior: 'smooth'
+      });
+    }
+  }
+
+  scrollToTop(): void {
+    // document.body.scrollTop = 0; // para o safari
+    // document.documentElement.scrollTop = 0; // Para funcionar no Chrome, Firefox, e Opera
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   }
 
 }

@@ -2,19 +2,19 @@
     {
       "title": "Lumostudy",
       "tags": ["Java", "Angular", "Spring", "PostgreSQL", "Typescript"],
-      "info": "Aplicativo para o gerenciamento de estudos (em desenvolvimento)",
-      "repoLink": "https://github.com/Beforg/Lumostudy" 
+      "info": "Projeto com foco em estudantes para ajudar na organização de tarefas e estudos.",
+      "repoLink": "https://github.com/Beforg/Lumostudy-Angular" 
     },
     {
       "title": "AtendimentosApp",
       "tags": ["JavaFX", "PostgreSQL", "CSS"],
-      "info": "Sistema para o atendimento e fechamento de caixa de uma empresa de embalagens",
+      "info": "Sistema para o atendimento e fechamento de caixa de uma empresa de um comércio",
       "repoLink": "https://github.com/Beforg/AtendimentosAPP" 
     },
     {
       "title": "Controle de Estoque",
       "tags": ["C#","SQL Server 2019"],
-      "info": "Sistema para controle do almoxarifado de uma empresa de Construções, auxiliando na entrada e saída de materiais",
+      "info": "Sistema para um almoxarifado de uma empresa, auxiliando no controle da entrada e saída de materiais",
       "repoLink": "https://github.com/Beforg/Controle-De-Estoque" 
     },
     {
@@ -24,10 +24,10 @@
       "repoLink": "https://github.com/Beforg/Task-Plus" 
     },
     {
-      "title": "LifeSync",
-      "tags": ["JavaFX", "Spring", "CSS"],
-      "info": "Aplicativo Desktop de organização pessoal feita em java",
-      "repoLink": "https://github.com/Beforg/LifeSync" 
+      "title": "Sistema de Consultas",
+      "tags": ["Java", "Spring", "Angular", "Typescript", "PostgreSQL", "Scrum"],
+      "info": "Projeto de sistemas de consultas com foco nas práticas da metodologia Scrum",
+      "repoLink": "https://github.com/Beforg/Sistema-de-Consulta" 
     }
     
   ]
