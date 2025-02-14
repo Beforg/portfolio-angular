@@ -57,16 +57,47 @@ export class HeaderComponent {
 
   }
 
-  scrollToContact(): void {
+  scrollToEducation(): void {
     const width = window.innerWidth;
     if (width > 1080) {
       window.scrollTo({
-        top: 3000,
+        top: 3500,
         behavior: 'smooth'
       });
     } else {
       window.scrollTo({
-        top: 6000,
+        top: 4180,
+        behavior: 'smooth'
+      });
+    }
+  }
+
+  
+  scrollToContact(): void {
+    const width = window.innerWidth;
+    if (width > 1080) {
+      window.scrollTo({
+        top: 8000,
+        behavior: 'smooth'
+      });
+    } else {
+      window.scrollTo({
+        top: 17500,
+        behavior: 'smooth'
+      });
+    }
+  }
+
+  scrollToExp(): void {
+    const width = window.innerWidth;
+    if (width > 1080) {
+      window.scrollTo({
+        top: 5000,
+        behavior: 'smooth'
+      });
+    } else {
+      window.scrollTo({
+        top: 7000,
         behavior: 'smooth'
       });
     }

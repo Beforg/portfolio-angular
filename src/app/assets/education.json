@@ -16,6 +16,13 @@
 
   },
   {
+    "title": "Programa de Residência em TIC ",
+    "skills": ["Python", "UI/UX", "Engenharia de Requisitos", "Gestão de Projetos", "Empreendedorismo", "IA", "Banco de Dados"],
+    "description": "Progrma residência em TIC fase de Nivelamento em Computação Básica, onde foram abordados conceitos de programação em Python, UI/UX, Engenharia de Requisitos, Gestão de Projetos, Empreendedorismo, IA e Banco de Dados. O programa me proporcionou uma visão ampla e prática de tecnologias e metodologias atuais, preparando-me para atuar em projetos de desenvolvimento de software.",
+    "subtitle": "BRISA / Unipampa | Remoto",
+    "date": "dez. 2024 - fev. 2025"
+  },
+  {
     "title": "Cursos de Tecnologia",
     "skills": ["Java", "Angular", "Spring", "PostgreSQL", "TypeScript", "C#", "MongoDB", "AWS", "Linux", "JavaScript", "HTML", "CSS", "UI/UX", "Python", "Gestão Ágil de Projetos"],
     "description": "Em cursos focados no desenvolvimento de habilidades técnicas essenciais e práticas com abordagens voltadas ao mercado, me especializei em Java e Angular para desenvolvimento fullstack. Meu estudo contínuo tem me permitido construir uma base sólida em desenvolvimento back-end, web, bancos de dados relacionais e NoSQL, cloud computing e linguagens modernas, permitindo-me resolver problemas reais com tecnologias de ponta.",
@@ -26,7 +33,7 @@
     "title": "Programa DIO Campus Expert",
     "skills": ["Liderança", "Soft Skills", "Networking"],
     "description": "Como embaixador universitário da DIO, desenvolvi habilidades de liderança e comunicação para o compartilhamento de conhecimentos em tecnologia. O programa aprimorou minhas habilidades interpessoais, colaboração e resiliência, fundamentais para criar impacto positivo e atuar como mentor em comunidades acadêmicas de tecnologia.",
-    "subtitle": "DIO | Remoto | ago. 2024 - out. 2024",
+    "subtitle": "DIO | Remoto",
     "date": "ago. 2024 - out. 2024"
   }
 ]

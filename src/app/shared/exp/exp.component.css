@@ -1,3 +1,55 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+
+}
+
+.exp-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    margin: 19px 0;
+    justify-content: space-between;
+}
+
+.card-title h2{
+    color: white;
+    font-size: 19px;
+    margin: 0;
+}
+
+.card-title p {
+    color: #5a5a5a;
+    font-weight: 200;
+    font-size: 16px;
+    margin: 0;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    color: #5a5a5a;
+}
+
+.item-locale {
+    color: white;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.item-description {
+    font-size: 21px;
+    margin: 5px;
+}
+
+
 @media (min-width: 1080px){
     .card {
         display: flex;

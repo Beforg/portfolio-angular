@@ -2,6 +2,7 @@
 .project-content-title {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-size: 19px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -29,6 +30,28 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.gh-ico {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+
+}
+
+.project-content-title span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.project-content-title span p{
+    font-size: 14px;
+}
+
+
+
+
 .card {
     color: var(--texto-branco);
     border-radius: 4px;
@@ -36,14 +59,44 @@
     align-items: stretch;
     flex-direction: column;
     width: 100%;
-    padding: 1%;
-    margin-top: 35px;
+    padding-bottom: 10px;
     transition: box-shadow 0.5s; 
 }
 
+.project-title {
+    margin: 0;
+    font-size: 19px;
+}
 
+.project-content-info-title {
+    margin: 10px 0;
+    color: #5a5a5a;
+    font-size: 20px;
+}
 
+.borda {
+    border-bottom: 1px solid #5a5a5a;
+    width: 100%;
+}
 
+.project-info {
+    margin: 4px 0;
+    color: #5a5a5a;
+    font-size: 21px;
+}
+
+.project-content-info-item {
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    justify-content: space-between;
+    color: #5a5a5a;
+}
+
+.project-content-info-item p {
+    margin: 15px 0 5px 0;
+    
+}
 
 @media (min-width: 1080px) {
     .project-content {
@@ -55,6 +108,15 @@
         vertical-align: middle;
         width: 50px;
         height: 50px;
+    }
+    
+    .project-content-title {
+        display: flex;
+        align-items: center;
+        font-size: 19px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: var(--texto-branco)
     }
     
     .project-img {
@@ -74,13 +136,10 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.4); /* Camada escura com 50% de opacidade */
-        border-radius: 3px; /* Mantém o mesmo border-radius da imagem */
+        background-color: rgba(0, 0, 0, 0.4); 
+        border-radius: 3px; 
     }
 
-    .project-content-title p {
-        
-    }
     
     .project-title {
         margin: 0;
@@ -107,24 +166,16 @@
         background-color: #241F23;
     }
 
-    .project-content-title {
-        font-size: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-    }
 
     .project-content-tag {
         font-size: 14px;
         line-height: 10px;
-        padding: 5px;
+
         border-radius: 1px;
         display: inline-block;
         background-color: var(--destaque);
         color: var(--texto-branco);
-        margin: 0px 8px 0 5px;
+        margin-top: 10px;
         font-weight: bold;
         font-family: 'Montserrat', sans-serif;
         
@@ -132,6 +183,8 @@
 
     .project-info {
         margin: 4px 0;
+        color: #5a5a5a;
+        font-size: 21px;
     }
 
     .project-content-info-item {
@@ -139,6 +192,12 @@
         align-items: flex-end;
         padding: 0;
         justify-content: space-between;
+        color: #5a5a5a;
+    }
+
+    .project-content-info-item p {
+        margin: 15px 0 5px 0;
+        
     }
 
     .project-content-info-title {
@@ -156,7 +215,7 @@
     }
 
     .borda {
-        border-bottom: 1px solid var(--destaque);
+        border-bottom: 1px solid #5a5a5a;
         width: 100%;
     }
     

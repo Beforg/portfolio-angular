@@ -2,7 +2,7 @@
     {
       "title": "Lumostudy",
       "tags": ["Java", "Angular", "Spring", "PostgreSQL", "Typescript"],
-      "info": "Projeto com foco em estudantes para ajudar na organização de tarefas e estudos.",
+      "info": "Plataforma desenvolvida para auxiliar estudantes na organização dos estudos. O projeto oferece ferramentas para registro de atividades, cronograma e histórico de estudos, proporcionando uma gestão mais eficiente da rotina acadêmica.",
       "repoLink": "https://github.com/Beforg/Lumostudy-Angular",
       "url": "/projects/lumos.png",
       "type": "Fullstack",
@@ -10,18 +10,27 @@
       
     },
     {
-      "title": "AtendimentosApp",
-      "tags": ["JavaFX", "PostgreSQL", "CSS"],
-      "info": "Sistema para o atendimento e fechamento de caixa de uma empresa de um comércio",
-      "repoLink": "https://github.com/Beforg/AtendimentosAPP",
-      "url": "/projects/app.png",
-      "type": "Back-end",
-      "date": "2023"  
+      "title": "Task++",
+      "tags": ["Java", "Spring", "React", "Javascript"],
+      "info": "Versão atualizada do projeto de gerenciamento de tarefas. A aplicação desenvolvida em React para facilitar a organização de tarefas e listas personalizadas. O sistema permite criar, editar e excluir tarefas, além de agrupar atividades em diferentes listas",
+      "repoLink": "https://github.com/Beforg/TaskPP",
+      "url": "/projects/taskp.png",
+      "type": "Fullstack",
+      "date": "2025"   
+    },
+    {
+      "title": "Sistema de Consultas",
+      "tags": ["Java", "Spring", "Angular", "Typescript", "PostgreSQL", "Scrum"],
+      "info": "Desenvolvido como parte da atividade da disciplina de Introdução à Engenharia de Computação, este projeto aplicou as práticas da metodologia Scrum no desenvolvimento de um sistema de agendamento de consultas. A solução foi construída com Angular no front-end e Java (Spring Boot) no back-end, enfatizando a colaboração, planejamento iterativo e entregas incrementais. O projeto proporcionou uma experiência prática na organização de tarefas, sprints e revisões, simulando um ambiente real de desenvolvimento ágil.",
+      "repoLink": "https://github.com/Beforg/Sistema-de-Consulta",
+      "url": "/projects/sdc.png" ,
+      "type": "Fullstack",
+      "date": "2024" 
     },
     {
       "title": "Controle de Estoque",
       "tags": ["C#","SQL Server 2019"],
-      "info": "Sistema para um almoxarifado de uma empresa, auxiliando no controle da entrada e saída de materiais",
+      "info": "Desenvolvido para gerenciar de forma eficiente a entrada e saída de materiais em um almoxarifado, o sistema simples facilita o monitoramento do estoque, evitando desperdícios e melhorando a organização dos insumos da empresa. A solução permite o registro de movimentações, garantindo maior controle e precisão na gestão dos recursos.",
       "repoLink": "https://github.com/Beforg/Controle-De-Estoque",
       "url": "/projects/inicial.png",
       "type": "Back-end",
@@ -30,20 +39,20 @@
     {
       "title": "Task+",
       "tags": ["Java", "Spring", "HTML", "CSS", "PostgreSQL"],
-      "info": "Projeto de gerenciamento de tarefas com uma API Restful feita em Java",
+      "info": "Projeto de gerenciamento de tarefas.",
       "repoLink": "https://github.com/Beforg/Task-Plus",
       "url": "/projects/taskp.png",
-      "type": "Back-end",
+      "type": "Fullstack",
       "date": "2024"   
     },
     {
-      "title": "Sistema de Consultas",
-      "tags": ["Java", "Spring", "Angular", "Typescript", "PostgreSQL", "Scrum"],
-      "info": "Projeto de sistemas de consultas com foco nas práticas da metodologia Scrum",
-      "repoLink": "https://github.com/Beforg/Sistema-de-Consulta",
-      "url": "/projects/sdc.png" ,
-      "type": "Fullstack",
-      "date": "2024" 
+      "title": "AtendimentosApp",
+      "tags": ["JavaFX", "PostgreSQL", "CSS"],
+      "info": "Desenvolvido para otimizar o atendimento, o sistema permite o registro de pedidos e clientes, controle de pagamentos e fechamento de caixa. A solução visa agilizar processos operacionais, garantindo maior organização e controle.",
+      "repoLink": "https://github.com/Beforg/AtendimentosAPP",
+      "url": "/projects/app.png",
+      "type": "Back-end",
+      "date": "2023"  
     }
     
   ]

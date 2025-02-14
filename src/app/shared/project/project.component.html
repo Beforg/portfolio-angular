@@ -1,4 +1,4 @@
-<div class="card" *ngFor="let project of projects" (click)="goToRepository(project.repoLink)">
+<div class="card" *ngFor="let project of projects">
   <div class="card-conteudo">
     <!-- <div class="card-img">
       <img [src]="project.url" alt="Imagem do Projeto" class="project-img">
@@ -8,7 +8,7 @@
         <div class="card-infos">
           <div class="project-content-title">
             <p class="project-title">{{ project.title }}</p>
-            <span class="project-content-link">
+            <span class="project-content-link" (click)="goToRepository(project.repoLink)">
               <p>Ver no GitHub</p>
               <img [src]="ghIco" alt="Icone do GitHub" class="gh-ico">
             </span>
@@ -22,11 +22,11 @@
           </span>
           <span class="project-content-info-item borda">
             <p><strong>Ano</strong></p>
-            <p>{{project.date}}</p>
+            <p class="info-value">{{project.date}}</p>
           </span>
           <span class="project-content-info-item borda">
             <p><strong>Tipo</strong></p>
-            <p>{{project.type}}</p>
+            <p class="info-value">{{project.type}}</p>
           </span>
         </div>
       </div>
