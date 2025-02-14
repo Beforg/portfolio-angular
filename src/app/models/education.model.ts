@@ -5,5 +5,6 @@ export interface Education {
     subtitle: string;
     description: string;
     skills: string[];
+    date: string;
     url: string;
 }

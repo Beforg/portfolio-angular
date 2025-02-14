@@ -4,6 +4,8 @@ import { ProjectComponent } from "../project/project.component";
 import { EducationComponent } from "../education/education.component";
 import { SocialComponent } from '../social/social.component';
 import { FooterComponent } from "../footer/footer.component";
+import { ExpComponent } from "../exp/exp.component";
+import { SkillsComponent } from "../skills/skills.component";
 
 @Component({
   selector: 'main-section',
@@ -13,7 +15,9 @@ import { FooterComponent } from "../footer/footer.component";
     ProjectComponent,
     EducationComponent,
     SocialComponent,
-    FooterComponent
+    FooterComponent,
+    ExpComponent,
+    SkillsComponent
 ],
   templateUrl: './main-section.component.html',
   styleUrl: './main-section.component.css'

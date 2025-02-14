@@ -12,8 +12,8 @@ import { CommonModule } from '@angular/common';
 })
 export class ProjectComponent implements OnInit {
   projects: Project[] = [];
-
-  ngOnInit(): void {
+  ghIco: string = '/mdi_github.png';
+  ngOnInit(): void { 
     this.projects = projectsData as Project[]; 
   }
 

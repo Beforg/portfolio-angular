@@ -3,7 +3,7 @@
     height: 50px;
     bottom: 0;
     left: 0;
-    text-align: center;
+    text-align: center;;
 
     .imagem {
         width: 30px;
@@ -19,8 +19,9 @@
 }
 
 p {
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
+    color: white;
     
 }
 
@@ -36,6 +37,7 @@ p {
     p {
         font-size: 18px;
         font-family: 'Montserrat', sans-serif;
+        color: white;
         
     }
 }

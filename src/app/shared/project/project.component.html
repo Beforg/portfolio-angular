@@ -1,14 +1,37 @@
-
-<div class="project-content">
-    <div class="card" *ngFor="let project of projects" (click)="goToRepository(project.repoLink)">
-        <div class="project-content-title">
-            {{ project.title }}
-          </div>
-          <div>
-            <span class="project-content-tag" *ngFor="let tag of project.tags">{{ tag }}</span>
-          </div>
-          <div class="project-content-info">
-            {{ project.info }}
-          </div>
+<div class="card" *ngFor="let project of projects" (click)="goToRepository(project.repoLink)">
+  <div class="card-conteudo">
+    <div class="card-img">
+      <img [src]="project.url" alt="Imagem do Projeto" class="project-img">
     </div>
+    <div class="card-infos">
+      <div class="project-content-title">
+        <p class="project-title">{{ project.title }}</p>
+        <span class="project-content-link">
+          <p>Ver no GitHub</p>
+          <img [src]="ghIco" alt="Icone do GitHub" class="gh-ico">
+        </span>
+      </div>
+      <div class="project-content-info">
+        <p class="project-info">
+          {{ project.info }}
+        </p>
+        <div>
+          <span class="project-content-info-item borda">
+            <h2 class="project-content-info-title">Informações do Projeto</h2>
+          </span>
+          <span class="project-content-info-item borda">
+            <p><strong>Ano</strong></p>
+            <p>{{project.date}}</p>
+          </span>
+          <span class="project-content-info-item borda">
+            <p><strong>Tipo</strong></p>
+            <p>{{project.type}}</p>
+          </span>
+        </div>
+      </div>
+      <div>
+        <span class="project-content-tag" *ngFor="let tag of project.tags">{{ tag }}</span>
+      </div>
+  </div>
+  </div>
 </div>

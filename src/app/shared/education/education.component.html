@@ -1,7 +1,12 @@
 <div class="education-content">
     <div class="card" *ngFor="let education of educations" (click)="openLink(education.url)">
         <div class="education-content-title">
-            {{ education.title}}
+            <p class="education-title">
+                {{ education.title}}
+            </p>
+            <p class="education-date">
+            {{ education.date }}
+            </p>
         </div>
         <div class="education-content-subtitle">
             {{ education.subtitle }}

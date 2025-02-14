@@ -5,4 +5,7 @@ export interface Project {
     tags: string[];
     info: string;
     repoLink: string;
+    url: string;
+    type: string;
+    date: string;
 }

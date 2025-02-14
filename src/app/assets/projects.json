@@ -3,31 +3,47 @@
       "title": "Lumostudy",
       "tags": ["Java", "Angular", "Spring", "PostgreSQL", "Typescript"],
       "info": "Projeto com foco em estudantes para ajudar na organização de tarefas e estudos.",
-      "repoLink": "https://github.com/Beforg/Lumostudy-Angular" 
+      "repoLink": "https://github.com/Beforg/Lumostudy-Angular",
+      "url": "/projects/lumos.png",
+      "type": "Fullstack",
+      "date": "2025" 
+      
     },
     {
       "title": "AtendimentosApp",
       "tags": ["JavaFX", "PostgreSQL", "CSS"],
       "info": "Sistema para o atendimento e fechamento de caixa de uma empresa de um comércio",
-      "repoLink": "https://github.com/Beforg/AtendimentosAPP" 
+      "repoLink": "https://github.com/Beforg/AtendimentosAPP",
+      "url": "/projects/app.png",
+      "type": "Back-end",
+      "date": "2023"  
     },
     {
       "title": "Controle de Estoque",
       "tags": ["C#","SQL Server 2019"],
       "info": "Sistema para um almoxarifado de uma empresa, auxiliando no controle da entrada e saída de materiais",
-      "repoLink": "https://github.com/Beforg/Controle-De-Estoque" 
+      "repoLink": "https://github.com/Beforg/Controle-De-Estoque",
+      "url": "/projects/inicial.png",
+      "type": "Back-end",
+      "date": "2024"   
     },
     {
       "title": "Task+",
       "tags": ["Java", "Spring", "HTML", "CSS", "PostgreSQL"],
       "info": "Projeto de gerenciamento de tarefas com uma API Restful feita em Java",
-      "repoLink": "https://github.com/Beforg/Task-Plus" 
+      "repoLink": "https://github.com/Beforg/Task-Plus",
+      "url": "/projects/taskp.png",
+      "type": "Back-end",
+      "date": "2024"   
     },
     {
       "title": "Sistema de Consultas",
       "tags": ["Java", "Spring", "Angular", "Typescript", "PostgreSQL", "Scrum"],
       "info": "Projeto de sistemas de consultas com foco nas práticas da metodologia Scrum",
-      "repoLink": "https://github.com/Beforg/Sistema-de-Consulta" 
+      "repoLink": "https://github.com/Beforg/Sistema-de-Consulta",
+      "url": "/projects/sdc.png" ,
+      "type": "Fullstack",
+      "date": "2024" 
     }
     
   ]

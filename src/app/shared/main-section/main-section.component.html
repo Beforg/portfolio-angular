@@ -1,39 +1,47 @@
 <section class="container-main-content">
     <div class="main-content">
-        <span>FULLSTACK DEVELOPER</span>
-        <h1>BRUNO FORGIARINI</h1>
+        <span>DESENVOLVEDOR FULLSTACK</span>
+        <h1 class="background">Bruno Forgiarini</h1>
         <p class="home-text">
             Desenvolvedor Fullstack com foco em Java e Angular. Fique à vontade para conhecer mais sobre mim e meus projetos.
         </p>
         <btn-primary text="Currículo" url="https://drive.google.com/file/d/1IeF-Ly-Rg-5PBkuGXZu7eZu2sIUc21aq/view"></btn-primary>
     </div>
-    <div class="main-content-image">
+    <!-- <div class="main-content-image">
         <img [src]="myImg" alt="Bruno Forgiarini" class="my-image">
+    </div> -->
+</section>
+<section class="wrapper">
+    <div class="container-about-content">
+        <div class="about-content">
+            <h2>Sobre mim</h2>
+            <p class="about-content-text"> 
+                Meu nome é Bruno, tenho 23 anos e atualmente estou cursando Engenharia de Computação na Universidade Federal do Pampa (Bagé-RS). Nos últimos anos, desenvolvi projetos pessoais e para empresas, o que acelerou minha evolução técnica e prática na área de desenvolvimento de software.
+                <br><br>
+                Tenho experiência em desenvolvimento Back-End e Front-End, conhecimento em linguagens como Java, TypeScript, Python, C#, e C, também nos frameworks Spring e Angular, além de ferramentas e tecnologias como AWS, Linux, Figma e bancos de dados, incluindo MongoDB e PostgreSQL. Meu trabalho segue boas práticas de versionamento com Git e GitHub e é guiado pela metodologia Scrum, garantindo organização e eficiência no desenvolvimento de projetos
+                <br><br>
+                Durante meu aprendizado e execução de projetos, desenvolvi soluções eficientes para o backend e criei interfaces de usuário dinâmicas e intuitivas. Meu foco é oferecer qualidade técnica e proporcionar uma experiência agradável ao usuário
+            </p>
+        </div>
     </div>
-</section>
-<section class="container-about-content">
-    <div class="about-content">
-        <h2>Sobre mim</h2>
-        <p class="about-content-text"> 
-            Meu nome é Bruno, tenho 23 anos e atualmente estou cursando Engenharia de Computação na Universidade Federal do Pampa (Bagé-RS). Nos últimos anos, desenvolvi projetos pessoais e para empresas, o que acelerou minha evolução técnica e prática na área de desenvolvimento de software.
-            <br><br>
-            Tenho experiência em desenvolvimento Back-End e Front-End, conhecimento em linguagens como Java, TypeScript, Python, C#, e C, também nos frameworks Spring e Angular, além de ferramentas e tecnologias como AWS, Linux, Figma e bancos de dados, incluindo MongoDB e PostgreSQL. Meu trabalho segue boas práticas de versionamento com Git e GitHub e é guiado pela metodologia Scrum, garantindo organização e eficiência no desenvolvimento de projetos
-            <br><br>
-            Durante meu aprendizado e execução de projetos, desenvolvi soluções eficientes para o backend e criei interfaces de usuário dinâmicas e intuitivas. Meu foco é oferecer qualidade técnica e proporcionar uma experiência agradável ao usuário
-        </p>
+    <div class="container-projects-content">
+        <h2>Projetos em destaque</h2>
+        <project-component></project-component>
     </div>
+    <div class="botaoProjetos">
+        <btn-primary text="Ver todos os projetos" class="bt" url="https://github.com/Beforg?tab=repositories"></btn-primary>
+    </div>
+    <div class="container-education-content">
+        <h2>Formação</h2>
+         <education-component></education-component>
+         <h2>Experiência</h2>
+         <app-exp> </app-exp>
+         <h2>Habilidades e Tecnologias</h2>
+         <app-skills></app-skills>
+    </div> 
+
 </section>
-<section class="container-projects-content">
-    <h2>Projetos em destaque</h2>
-    <project-component></project-component>
-</section>
-<section class="botaoProjetos">
-    <btn-primary text="Ver todos os projetos" class="bt" url="https://github.com/Beforg?tab=repositories"></btn-primary>
-</section>
-<section class="container-education-content">
-    <h2>Formação</h2>
-     <education-component></education-component>
-</section>   
+  
 <social>   
 </social>
 

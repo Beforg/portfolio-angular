@@ -3,13 +3,7 @@ header {
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
-
-    a {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-    }
-
+    background-color: var(--bg);
 }
 
 .menu {
@@ -23,9 +17,11 @@ header {
 .menu a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
-    color: var(--line-gradient);
+    color: white;
     transition: color 0.5s ease-out;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .menu a:hover {
@@ -56,14 +52,9 @@ p:hover {
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-top: 24px;
-    
-        a {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-        }
+        justify-content: center;
+        padding: 32px;
+        background-color: var(--bg);
     }
     
     .images {
@@ -82,14 +73,16 @@ p:hover {
     .menu a {
         text-decoration: none;
         font-weight: bold;
-        font-size: 20px;
-        color: var(--line-gradient);
-        transition: color 0.5s ease-out;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+        transition: color 0.3s ease-out;
     }
 
     .menu a:hover {
-
-        color: var(--azul-principal);
+        cursor: pointer;
+        color: var(--destaque);
     }
     
     .back-to-top {

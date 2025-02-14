@@ -3,11 +3,19 @@
 
 :root {
     --linear-gradient: linear-gradient(90deg, #101648 35%, #3d478d 100%);
-    --cor-borda: #0F1530;
+    --cor-borda: #5222D0;
     --texto-branco: #e0e0e0;
     --cor-hover: #EB4C38;
     --fundo-branco: #F0F0F0;
     --azul-principal: #0D0E2B;
+    --bg: #181516;
+    --destaque: #5222D0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
 }
 @keyframes backToTop {
     0% {

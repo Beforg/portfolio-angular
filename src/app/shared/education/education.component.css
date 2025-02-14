@@ -1,6 +1,7 @@
 .education-content {
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 
 .education-content-title {
@@ -38,32 +39,45 @@
 }
 
 .card {
-    box-shadow: 0 4px 8px rgb(0, 0, 0,0.2);
-    border-radius: 4px;
-    background-color: var(--fundo-branco);
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    padding: 1%;
+    padding-bottom: 40px;
     margin: 30px 0;
+    padding-left: 10px;
+    /* border-left: 3px solid var(--destaque); */
 }
 
-.card:hover {
-    transition: box-shadow 0.5s;
-    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.4); 
+.education-content-info {
+    color: #5a5a5a;
 }
+
 
 @media (min-width: 1080px) {
     .education-content {
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
 
     .education-content-title {
-        font-size: 19px;
-        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;    
+        color: white;
         font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
+    }
+
+    .education-title{
+        margin: 0;
+        font-size: 32px;
+    }
+
+    .education-date {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 300;
+        color: #5a5a5a
     }
 
     .education-content-skill {
@@ -91,24 +105,19 @@
         font-size: 15px;
         margin: 5px;
         font-family: 'Montserrat', sans-serif;
+        color: white;
     }
+
+
 
     .card {
         height: 200px;
-        box-shadow: 0 4px 8px rgb(0, 0, 0,0.2);
-        border-radius: 4px;
-        background-color: var(--fundo-branco);
+        /* border-bottom: 1px solid var(--destaque); */
         display: flex;
         flex-direction: column;
-        cursor: pointer;
-        padding: 1%;
+        padding-bottom: 40px;
         margin: 1%;
         transition: box-shadow 0.5s;
 
-    }
-
-    .card:hover {
-        
-        box-shadow: 0 8px 16px rgb(0, 0, 0, 0.4); 
     }
 }

@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Desenvolvedor Front-End",
+        "locale": "Pampec Jr. (UNIPAMPA Bagé)",
+        "date": "jan. 2025 - atualmente",
+        "description": "Desenvolvedor front-end na Empresa Júnior do curso de Engenharia de Computação da Unipampa - Campus Bagé,  trabalhando com metodologias ágeis e tecnologias como React, JavaScript e Figma."
+    },
+    {
+        "title": "Desenvolvedor Fullstack",
+        "locale": "Freelancer",
+        "date": "jul. 2023 - atualmente",
+        "description": "Atuo como desenvolvedor fullstack, criando soluções personalizadas para web e desktop. Tenho experiência no desenvolvimento de APIs com Java (Spring Boot) e integração com banco de dados PostgreSQL. No front-end, desenvolvo aplicações com Angular, React, TypeScript e JavaScript. Além da programação, sou responsável pelo design e prototipação de interfaces no Figma, garantindo usabilidade e identidade visual para os projetos. Também aplico metodologias ágeis, como Scrum, para organização eficiente do fluxo de trabalho"
+    }
+]

@@ -1,0 +1,12 @@
+<div class="exp-content">
+    <div *ngFor="let item of exp" class="card">
+        <div class="card-title">
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.date }}</p>
+        </div>
+        <div class="card-content"> 
+            <p class="item-locale">{{ item.locale }}</p>
+            <p class="item-description">{{ item.description }}</p>
+        </div>
+    </div>
+</div>
