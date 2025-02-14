@@ -1,17 +1,18 @@
 <div class="card" *ngFor="let project of projects" (click)="goToRepository(project.repoLink)">
   <div class="card-conteudo">
-    <div class="card-img">
+    <!-- <div class="card-img">
       <img [src]="project.url" alt="Imagem do Projeto" class="project-img">
-    </div>
-    <div class="card-infos">
-      <div class="project-content-title">
-        <p class="project-title">{{ project.title }}</p>
-        <span class="project-content-link">
-          <p>Ver no GitHub</p>
-          <img [src]="ghIco" alt="Icone do GitHub" class="gh-ico">
-        </span>
-      </div>
+    </div> -->
+
       <div class="project-content-info">
+        <div class="card-infos">
+          <div class="project-content-title">
+            <p class="project-title">{{ project.title }}</p>
+            <span class="project-content-link">
+              <p>Ver no GitHub</p>
+              <img [src]="ghIco" alt="Icone do GitHub" class="gh-ico">
+            </span>
+          </div>
         <p class="project-info">
           {{ project.info }}
         </p>
